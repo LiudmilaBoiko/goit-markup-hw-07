@@ -33,6 +33,11 @@
   letter-spacing: 0.02em;
   text-decoration: none;
   cursor: pointer;
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
 }
 
 .auth-nav {
@@ -60,24 +65,23 @@
   line-height: 1.14x;
   letter-spacing: 0.02em;
   text-decoration: none;
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
 }
 
 .icon-nav {
   margin-right: 10px;
   fill: currentColor;
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
 }
 
-.icon-nav:hover,
-.icon-nav:focus {
-  color: $accent-color;
-}
-
-.site-nav .link:hover,
-.site-nav .link:focus,
-.auth-nav .link:hover,
-.auth-nav .link:focus {
-  color: $accent-color;
-}
 .site-nav .link.current {
   position: relative;
   color: $accent-color;

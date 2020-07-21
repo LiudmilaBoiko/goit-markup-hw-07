@@ -157,11 +157,13 @@
   background-color: transparent;
 
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.close:hover {
+  &:hover {
   fill: $accent-color;
 }
+}
+
+
 
 /*checkbox*/
 .agreement::after {
@@ -184,21 +186,4 @@
   background-image: url(../img/check.svg);
   background-clip: contain;
   background-origin: border-box;
-}
-
-/*section*/
-.section-title {
-  margin-top: 0;
-  margin-bottom: 0;
-  margin-bottom: 50px;
-
-  color: $title-text-color;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-}
-
-.section.no-padding-bottom {
-  padding-bottom: 0;
 }
