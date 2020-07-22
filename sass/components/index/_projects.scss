@@ -5,13 +5,15 @@
 
 .projects {
   display: flex;
-}
-.projects > .item {
-  position: relative;
-  margin-right: 30px;
-}
-.projects > .item:last-child {
-  margin-right: 0;
+
+  & > .item {
+    position: relative;
+    margin-right: 30px;
+  }
+
+  & > .item:last-child {
+    margin-right: 0;
+  }
 }
 
 .description {

@@ -25,6 +25,11 @@
   font-size: 14px;
   line-height: 1.71;
   text-decoration: none;
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
 }
 .footer-list-title {
   display: block;
