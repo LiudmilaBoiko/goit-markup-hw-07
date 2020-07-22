@@ -4,6 +4,7 @@
 }
 
 .projects {
+  @extend %list;
   display: flex;
 
   & > .item {

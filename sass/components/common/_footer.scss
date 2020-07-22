@@ -1,4 +1,5 @@
-.container.footer-content {
+.footer-content {
+  @extend .container;
   display: flex;
   align-items: baseline;
   padding-top: 60px;
@@ -6,6 +7,7 @@
 }
 
 .join {
+  @extend %list;
   margin-left: 69px;
 }
 .subscription {

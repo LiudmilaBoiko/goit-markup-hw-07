@@ -1,4 +1,5 @@
 .team {
+  @extend %list;
   display: flex;
 
   & > .item {
